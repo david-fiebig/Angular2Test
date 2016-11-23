@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TourOfHeroes")]
+[assembly: AssemblyTitle("WebApi")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Zuehlke Technology Group")]
-[assembly: AssemblyProduct("TourOfHeroes")]
+[assembly: AssemblyProduct("WebApi")]
 [assembly: AssemblyCopyright("Copyright © Zuehlke Technology Group 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c34a3e14-5820-4eac-9351-57fc9dea6bc9")]
+[assembly: Guid("39775665-402c-4274-8846-de8280e7d20a")]
 
 // Version information for an assembly consists of the following four values:
 //
