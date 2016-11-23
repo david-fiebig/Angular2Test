@@ -74,6 +74,8 @@
     <Content Include="tsconfig.json" />
     <Content Include="typings.json" />
     <Content Include="tslint.json" />
+    <Content Include="removedFromPackage" />
+    <None Include="Properties\PublishProfiles\TestPublish.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
