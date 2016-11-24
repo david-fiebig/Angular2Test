@@ -20,11 +20,12 @@ System.register(['@angular/core'], function(exports_1, context_1) {
         execute: function() {
             AppComponent = (function () {
                 function AppComponent() {
+                    this.pageTitle = 'Acme Product Management';
                 }
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'pm-app',
-                        template: "\n        <h1>Angular2: Getting Started</h1>\n    "
+                        template: "\n    <div>\n        <h1>{{pageTitle}}</h1>\n        <div>My First Component</div>\n    </div>\n    "
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
