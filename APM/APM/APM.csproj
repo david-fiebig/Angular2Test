@@ -106,6 +106,7 @@
     <TypeScriptCompile Include="app\products\product-list.component.ts" />
     <TypeScriptCompile Include="app\home\welcome.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
+    <TypeScriptCompile Include="app\products\product.service.ts" />
     <TypeScriptCompile Include="app\products\product.ts" />
     <TypeScriptCompile Include="app\shared\star.component.ts" />
   </ItemGroup>
