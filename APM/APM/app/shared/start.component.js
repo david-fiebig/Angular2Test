@@ -8,19 +8,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var AppComponent = (function () {
-    function AppComponent() {
-        this.pageTitle = 'Acme Product Management';
+var core_1 = require('@Angular/core');
+var StartComponent = (function () {
+    function StartComponent() {
+        this.rating = 4;
     }
-    AppComponent = __decorate([
+    StartComponent.prototype.ngOnChanges = function () {
+        this.starWidth = this.rating * 86 / 5;
+    };
+    StartComponent = __decorate([
         core_1.Component({
-            selector: 'pm-app',
-            template: "\n    <div>\n        <h1>{{pageTitle}}</h1>\n        <pm-products>Loading Products...</pm-products>\n    </div>\n    "
+            selector: 'ai-star',
+            moduleId: module.id,
+            templateUrl: 'star.component.html',
+            styleUrls: ['star.component.cs']
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], StartComponent);
+    return StartComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.StartComponent = StartComponent;
+//# sourceMappingURL=start.component.js.map
